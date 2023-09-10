@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/InformacionUtil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#246EE9"
+    tools:context=".InformacionUtil">
+
+
+    <ImageView
+        android:id="@+id/logoApp"
+        android:layout_width="251dp"
+        android:layout_height="195dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/__12120_palm_trees_palm_tree_logo_transparent2" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnInicio2"
+                android:layout_width="110dp"
+                android:layout_height="48dp"
+                android:backgroundTint="#12AEBB"
+                android:text="Inicio"
+                android:textColor="#311B92"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/btnasesoramiento2"
+                android:layout_width="110dp"
+                android:layout_height="48dp"
+                android:backgroundTint="#12AEBB"
+                android:text="Asesoramiento"
+                android:textColor="#311B92"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/btnpdi3"
+                android:layout_width="110dp"
+                android:layout_height="48dp"
+                android:backgroundTint="#12AEBB"
+                android:text="Puntos de interés"
+                android:textColor="#311B92"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/TxtTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:singleLine="false"
+                android:text="Teléfonos de interés:"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtResumenLaPalma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="auto"
+                android:focusableInTouchMode="true"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="Teléfono de emergencias: +34112 \n\n Información del Cabildo y Ayuntamientos de La Palma:	 +34010 \n\n Bomberos: +34080 \n\n Ambulancias: +34061 \n\n Policía Local: 922 411 150 \n\n Policía Nacional: 922 414 043 \n\n Guarida Civil: 922 411 184 \n\n Protección Civil: 922 415 280 \n\n Cruz Roja Española: 922 420 600 \n\n Cabildo Insular de La Palma: 922 423 100 \n\n Aeropuerto Internacional de La Palma: 922 426 100 \n\n Hospital General de La Palma: 922 185 000 \n\n Salvamento y Seguridad Marítima: 900 202 202 \n\n Centro de Visitantes de La Caldera de Taburiente: 922 497 277 \n\n Taxis en Barlovento: 922 186 069 / 616 418 847 \n\n Taxis en Puntallana: 699 215 093  \n\n Taxis en los Sauces: 922 450 928 / 629 213 435 / 616 418 847  \n\n Taxis en Santa Cruz de la Palma: 922 416 070 / 922 181 396 / 619 072 227  \n\n Taxis en Aeropuerto: 922 440 078  \n\n Taxis en Breña Alta: 922 437 228 / 608 449 160  \n\n Taxis en Breña Baja: 922 434 046 / 922 440 825 / 649 906 222  \n\n Taxis en Mazo: 922 440 078 / 649 906 222  \n\n Taxis en Fuencaliente de la Palma: 922 440 825 / 649 906 222  \n\n Taxis en el Paso: 922 485 003 / 647 776 023  \n\n Taxis en los Llanos de Aridane: 922 403 540 / 629 115 532  \n\n Taxis en Tazacorte: 922 480 652 / 619 275 484  \n\n Taxis en Tijarafe: 618 309 349 / 628 676 110  \n\n Taxis en Puntagorda: 922 493 178 / 679 866 046 / 690 340 610  \n\n Taxis en Garafía: 922 400 103 / 619 692 071  \n\n Guaguas en toda la isla: 922 411 924 \n\n "
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:singleLine="false"
+                android:text="Direcciones importantes:"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtResumenLaPalma2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="Hospital General de La Palma:\nCtra. La Cumbre, nº 28, Buenavista de Arriba.\n38713 - Breña Alta.\n\nAeropuerto:\nCtra.La Bajita, s/n, \n38738 Villa de Mazo\n\nCentro de visitantes Caldera de Taburiente:\n Ctra. General de Padrón, nº 47,\n38750-El Paso (La Palma)."
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtTitulo11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:singleLine="false"
+                android:text="\nPáginas web de interés:"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtResumenLaPalma3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="Pagina de la TILP (horarios de las guaguas de la isla y rutas): https://www.tilp.es/ \n Reservas y permisos para la Caldera de Taburiente: https://www.reservasparquesnacionales.es/real/parquesnac/usu/html/listado-actividades-oapn.aspx?cen=4 \n Reservas Observatorio astronómico: https://www.iac.es/es/observatorios-de-canarias/observatorio-del-roque-de-los-muchachos/visitas \n Avistamiento de cetaceos: https://fancy2.com/ \n Excursiones guiadas: https://www.islabonitatours.com/ \n"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnpdi4"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:backgroundTint="#12AEBB"
+                android:text="Volver arriba"
+                android:textColor="#311B92"
+                android:textSize="8sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#246EE9"
+    tools:context=".Asesoramiento">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="160dp"
+        android:layout_height="194dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/btnInicio3"
+            android:layout_width="110dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#12AEBB"
+            android:text="Inicio"
+            android:textColor="#311B92"
+            android:textSize="8sp"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+        <Button
+            android:id="@+id/btnpdi5"
+            android:layout_width="110dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#12AEBB"
+            android:text="Puntos de interés"
+            android:textColor="#311B92"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/btninformacion2"
+            android:layout_width="110dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#12AEBB"
+            android:text="Informacion útil"
+            android:textColor="#311B92"
+            android:textSize="8sp"
+            android:visibility="visible"
+            app:rippleColor="#772C2C" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/logoApp4"
+        android:layout_width="251dp"
+        android:layout_height="195dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/__12120_palm_trees_palm_tree_logo_transparent2" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTitulo12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:singleLine="false"
+                android:text="Introduzca el presupuesto en euros del que dispone:"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/EdtPresupuesto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text="200" />
+
+            <TextView
+                android:id="@+id/txtTitulo13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:singleLine="false"
+                android:text="Elija el municipio donde desea alojarse:"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/SpMunicipios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:id="@+id/txtTitulo15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:singleLine="false"
+                android:text="Elija los sitios que planea visitar en la isla:"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/chckCaldera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="La Caldera de Taburiente" />
+
+            <CheckBox
+                android:id="@+id/chckRoque"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="El roque de los muchachos" />
+
+            <CheckBox
+                android:id="@+id/chckSalina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="Las salinas de Fuencaliente" />
+
+            <CheckBox
+                android:id="@+id/chckTilos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="El bosque de Los Tilos" />
+
+            <CheckBox
+                android:id="@+id/chckCharco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="Charco Azul" />
+
+            <CheckBox
+                android:id="@+id/chckTeneguia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="El volcán Teneguía" />
+
+            <CheckBox
+                android:id="@+id/chckMarcos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="Marcos y Cordero" />
+
+            <CheckBox
+                android:id="@+id/chckVolcanes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="La ruta de los volcanes" />
+
+            <CheckBox
+                android:id="@+id/chckMercadillo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="El mercadillo del agricultor" />
+
+            <CheckBox
+                android:id="@+id/chckProis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="El Proís de Candelaria" />
+
+            <TextView
+                android:id="@+id/txtDuracion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:singleLine="false"
+                android:text="Introduzca el número de días que planea estar en la isla:"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/EdtDias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/txtTitulo17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:singleLine="false"
+                android:text="¿Qué tipo de transporte prefiere?"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rbgTransporte"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rbGuagua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Guagua" />
+
+                <RadioButton
+                    android:id="@+id/rbTaxi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Taxi" />
+
+                <RadioButton
+                    android:id="@+id/rbAlquiler"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Coche de alquiler" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txtTitulo19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:singleLine="false"
+                android:text="¿Prefiere ir a restaurantes o comprar la comida en supermercados?"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rbgComida"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/rbRestaurantes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="restaurantes" />
+
+                <RadioButton
+                    android:id="@+id/rbSuper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="supermercados" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txtTitulo18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:singleLine="false"
+                android:text="¿Quiere la mayor calidad posible o un plan lo más económico posible?"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rbgplan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rbCalidad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Plan calidad" />
+
+                <RadioButton
+                    android:id="@+id/rbEconomico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Plan económico" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txtTitulo20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:singleLine="false"
+                android:text="Planes disponibles:"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtPlanes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:singleLine="false"
+                android:text="---"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTitulo21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:singleLine="false"
+                android:text="Precios totales:"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtResultado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:singleLine="false"
+                android:text="---"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnCalcular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calcular" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

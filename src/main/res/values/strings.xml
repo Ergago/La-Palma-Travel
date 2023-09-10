@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">La Palma Travel</string>
+    <string-array name="municipios">
+
+        <item>Tijarafe</item>
+        <item>Villa de Mazo</item>
+        <item>Puntagorda</item>
+        <item>Los Llanos de Aridane</item>
+        <item>El Paso</item>
+        <item>Puntallana</item>
+        <item>San Andrés y Los Sauces</item>
+        <item>Santa Cruz</item>
+        <item>Barlovento</item>
+        <item>Breña Alta</item>
+        <item>Breña Baja</item>
+        <item>Fuencaliente</item>
+        <item>Garafia</item>
+        <item>Tazacorte</item>
+    </string-array>
+</resources>

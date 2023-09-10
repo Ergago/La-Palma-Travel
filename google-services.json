@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "151040032759",
+    "project_id": "lapalmatravel-8f0e8",
+    "storage_bucket": "lapalmatravel-8f0e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151040032759:android:7c8ae6807d2e86337178f2",
+        "android_client_info": {
+          "package_name": "la.palma.lapalmatravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151040032759-gbugl7324enld58e5opq9i2kkncaqbog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFgFt7s8caN9G_pCxERxDsGvjjKfXuIUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151040032759-gbugl7324enld58e5opq9i2kkncaqbog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

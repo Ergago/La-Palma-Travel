@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#246EE9"
+    tools:context=".PuntosDeInteres">
+
+    <ImageView
+        android:id="@+id/logoApp2"
+        android:layout_width="251dp"
+        android:layout_height="195dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/__12120_palm_trees_palm_tree_logo_transparent2" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnInicio"
+                android:layout_width="110dp"
+                android:layout_height="48dp"
+                android:backgroundTint="#12AEBB"
+                android:text="Inicio"
+                android:textColor="#311B92"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/btnasesoramiento"
+                android:layout_width="110dp"
+                android:layout_height="48dp"
+                android:backgroundTint="#12AEBB"
+                android:text="Asesoramiento"
+                android:textColor="#311B92"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/btninformacion"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#12AEBB"
+                android:text="Informacion útil"
+                android:textColor="#311B92"
+                android:textSize="8sp"
+                android:visibility="visible"
+                app:rippleColor="#772C2C" />
+
+            <TextView
+                android:id="@+id/TxtResumenLaPalma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="La palma tiene el apodo de la isla bonita, un apodo ganado por sus increíbles paisajes naturales y sus cautivadores senderos. Eso la convierte en un destino ideal a la hora de hacer turismo. A continuación os dejaremos algunos de los destinos más importantes e inolvidables a la hora de visitar la palma."
+                android:textAllCaps="false"
+                android:textColor="#070707"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/TxtTitulo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="1.	La caldera de Taburiente"
+                android:textColor="#070707"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ImgLaCaldera"
+                android:layout_width="match_parent"
+                android:layout_height="202dp"
+                app:srcCompat="@drawable/caldera_de_taburiente_michad__1_" />
+
+            <TextView
+                android:id="@+id/TxtResumen1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="Originada hace dos millones de años debido a un derrumbamiento volcánico, la depresión geológica dio lugar a una flora y fauna únicas que acompañan los increíbles paisajes que adornan la caldera.Situada en el municipio de El Paso, la caldera de Taburiente es el lugar perfecto para aquellos turistas que deseen ver el ecosistema único de la isla o la increíble cascada de los colores. Sin duda, una visita obligada para cualquier senderista."
+                android:textAllCaps="false"
+                android:textColor="#070707"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtTitulo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="2. El roque de los muchachos"
+                android:textColor="#070707"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgRoque"
+                android:layout_width="match_parent"
+                android:layout_height="202dp"
+                app:srcCompat="@drawable/orm_1" />
+
+            <TextView
+                android:id="@+id/txtResumen2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="Siendo el punto más alto de la isla y la frontera norte de la caldera de Taburiente el Roque de los Muchachos es un destino obligado si eres fan de la astronomía, ya que en él se encuentra el observatorio astrofísico, situado en el segundo mejor sitio del mundo para observar el cosmos, según la ORM. También las vistas elevadas de la Caldera de Taburiente crean un paisaje sobrecogedor."
+                android:textAllCaps="false"
+                android:textColor="#070707"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtTitulo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="3. Las salinas de Fuencaliente"
+                android:textColor="#070707"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgSalinas"
+                android:layout_width="match_parent"
+                android:layout_height="202dp"
+                app:srcCompat="@drawable/salinasdefuencaliente" />
+
+            <TextView
+                android:id="@+id/txtResumen3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="Situadas sobre terreno volcánico, las salinas de Fuencaliente es uno de los lugares más visitados de la isla. El contraste de paisajes de la tierra volcánica y la inmensidad del océano atlántico crean un paisaje hermoso que sirve como escenario para esta gran producción de sal y provee de una imagen inolvidable para cualquier visitante."
+                android:textAllCaps="false"
+                android:textColor="#070707"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtTitulo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="4.  El bosque de los Tilos"
+                android:textColor="#070707"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgTilos"
+                android:layout_width="match_parent"
+                android:layout_height="202dp"
+                app:srcCompat="@drawable/cabecera_desktop_bosque_de_los_tilos" />
+
+            <TextView
+                android:id="@+id/txtResumen4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="Uno de los bosques de laurisilva más importantes de canarias. Situado en San Andrés y Sauces es el hogar de una flora espectacular que va desde los laureles a los  helechos gigantes. Cuenta con un centro de interpretación donde se explican los puntos importantes de la naturaleza del bosque. Uno de los paisajes más hermosos que un senderista puede contemplar. "
+                android:textAllCaps="false"
+                android:textColor="#070707"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtTitulo5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="5. Charco azul"
+                android:textColor="#070707"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgCharcoAzul"
+                android:layout_width="match_parent"
+                android:layout_height="202dp"
+                app:srcCompat="@drawable/cabecera_desktop_charco_azul" />
+
+            <TextView
+                android:id="@+id/txtResumen5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="Una de las piscinas naturales más famosas y bonitas de la isla de entrada gratuita y situada cerca de varios de los lugares de importancia turística de la isla, situado en san Andrés y Sauces charco azul, es el sitio perfecto para un día de diversión acuática en familia o con amigos, o para un pequeño descanso entre rutas turísticas."
+                android:textAllCaps="false"
+                android:textColor="#070707"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtTitulo6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="6. El volcán Teneguía"
+                android:textColor="#070707"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgteneguia"
+                android:layout_width="match_parent"
+                android:layout_height="202dp"
+                app:srcCompat="@drawable/cabecera_desktop_volcanes_de_teneguia" />
+
+            <TextView
+                android:id="@+id/txtResumen6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="El segundo volcán más reciente de la isla, ubicado a 2 kilómetros de los canarios, en el municipio de Fuencaliente, el volcán del Teneguía  ofrece la inolvidable experiencia de caminar por los bordes de un volcán y la vista de los efectos que tiene un evento geográfico de estas características en el terreno. Un punto a visitar en conjunto con las salinas, también situadas en Fuencaliente."
+                android:textAllCaps="false"
+                android:textColor="#070707"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtTitulo7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="7. Marcos y Cordero"
+                android:textColor="#070707"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgMarcos"
+                android:layout_width="match_parent"
+                android:layout_height="202dp"
+                app:srcCompat="@drawable/lapalma_tunelmarcosycorderos_abiansangilbaja" />
+
+            <TextView
+                android:id="@+id/txtResumen7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="Una de las rutas de senderismo más populares de la isla, nos lleva en un viaje por los 13 túneles de agua culminando en el espectacular bosque de laurisilva. Es importante recordar que este es un sendero considerado para expertos, no hay cobertura móvil en gran parte del recorrido y es obligatorio respetar la señalización de peligro y llevar calzado para senderismo, linterna, casco y chubasquero."
+                android:textAllCaps="false"
+                android:textColor="#070707"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtTitulo8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="8. La ruta de los volcanes"
+                android:textColor="#070707"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgRutaV"
+                android:layout_width="match_parent"
+                android:layout_height="202dp"
+                app:srcCompat="@drawable/lapalma_senderismorutavolcanes_sa_lsantos" />
+
+            <TextView
+                android:id="@+id/txtResumen8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="La ruta de los volcanes es la mejor forma de observar los puntos volcánicos más importantes de la isla, empezando en el refugio del pilar, otro punto de gran popularidad turística por la cantidad de actividades al aire libre que se pueden realizar y la imponente vista de los pinos canarios. La ruta nos lleva a través de 20 kilómetros a través de los cuales pasaremos por los conos volcánicos del Birigoyo, El Duraznero, El Volcán San Antonio y el cráter Hoyo Negro entre otros. Una ruta que no olvidarás fácilmente."
+                android:textAllCaps="false"
+                android:textColor="#070707"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtTitulo9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="9. El mercadillo del agricultor"
+                android:textColor="#070707"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgMercadillo"
+                android:layout_width="match_parent"
+                android:layout_height="202dp"
+                app:srcCompat="@drawable/mercadillo2" />
+
+            <TextView
+                android:id="@+id/txtResumen9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="Abierto en 2002 intentando potenciar el comercio de productos locales, el Mercadillo del agricultor es un punto muy importante para aquellos que quieran disfrutar de la gastronomía local. Se sitúa en Puntagorda y además de un sitio donde poder comprar comestibles de gran calidad y obras de artesanía, cuenta además con el área recreativa de El Fayal, un sitio perfecto donde disfrutar de esa comida y donde disfrutar del parque donde niños y adultos por igual pueden pasar un buen rato."
+                android:textAllCaps="false"
+                android:textColor="#070707"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtTitulo10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="10. El Proís de Candelaria "
+                android:textColor="#070707"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgProis"
+                android:layout_width="match_parent"
+                android:layout_height="202dp"
+                app:srcCompat="@drawable/poris_slide" />
+
+            <TextView
+                android:id="@+id/txtResumen10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="Utilizado en el siglo XVII por pescadores para evitar ataques de piratas este lugar se trata de un pueblo oculto entre las rocas de una costa pedregosa, perfectamente encajado en las hendiduras de la piedra. Una vista espectacular que además nos regala la cercanía con la cueva bonita y la espectacular vista del océano atlántico. Dado que la mayoría de las casas son vacacionales, este se posiciona como uno de los sitios más espectaculares donde pasar unos días en la isla."
+                android:textAllCaps="false"
+                android:textColor="#070707"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnpdi2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:backgroundTint="#12AEBB"
+                android:text="Volver arriba"
+                android:textColor="#311B92"
+                android:textSize="8sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

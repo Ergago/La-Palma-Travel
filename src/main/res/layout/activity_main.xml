@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#246EE9"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoApp3"
+        android:layout_width="251dp"
+        android:layout_height="195dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/__12120_palm_trees_palm_tree_logo_transparent2" />
+
+    <TextView
+        android:id="@+id/TxtApp"
+        android:layout_width="170dp"
+        android:layout_height="59dp"
+        android:focusable="auto"
+        android:focusableInTouchMode="false"
+        android:fontFamily="@font/fontdiner_swanky"
+        android:text="La Palma \n Travel"
+        android:textAllCaps="true"
+        android:textColor="#9A279E"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/logoApp3"
+        app:layout_constraintEnd_toEndOf="@+id/logoApp3"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="@+id/logoApp3"
+        app:layout_constraintTop_toTopOf="@+id/logoApp3"
+        app:layout_constraintVertical_bias="0.867" />
+
+    <ScrollView
+        android:id="@+id/LayFront"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnasesoramiento"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#12AEBB"
+                android:text="Asesoramiento"
+                android:textColor="#311B92"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/btnpdi"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#12AEBB"
+                android:text="Puntos de interés"
+                android:textColor="#311B92"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/btninformacion"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#12AEBB"
+                android:text="Informacion útil"
+                android:textColor="#311B92"
+                android:textSize="8sp"
+                android:visibility="visible"
+                app:rippleColor="#772C2C" />
+
+            <TextView
+                android:id="@+id/txtResumen"
+                android:layout_width="match_parent"
+                android:layout_height="590dp"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="\nLa Palma Travel es una aplicación dirigida a aquellos que estén pensando en hacer un viaje hacia la isla de La Palma y quieran tener los mejores datos posibles sobre los costes, posibles destinos y la información sobre transporte, sanidad, etc… que cualquier persona en la isla debería tener. \n  \n¡sean bienvenidos a la palma! "
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#070707"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
